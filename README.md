@@ -1,13 +1,14 @@
 # 2021 Bigcontest 퓨처스리그 홍수 Zero 부문
 ## 1. 개요
 주제: 댐 유입 수량 예측을 통한 최적의 수량 예측 모형 도출 </br>
+수상: 최우수상 (한국수자원공사)
 기간: 2021.07 ~ 2021.09 </br>
 팀원: 김권호, 김시현, 조형래, 황재원 </br>
 사용 skill: Python </br>
 <img width="1219" alt="image" src="https://user-images.githubusercontent.com/79994991/166149676-568f47b2-bae8-482f-913d-37fe83ad03cf.png">
 
 ## 2. 사용 데이터 및 전처리 
-- 6개의 집단으로 나뉜 홍수사상 데이터 (time series) 
+- Raw : 6개의 집단으로 나뉜 홍수사상 데이터 (time series) 
 - 데이터 특징에 따라 데이터 집단을 date 별로 그룹화한 후, log transformation 진행
 - MA, EWMA, Lag, 기술 통계량 등 시계열 특성을 반영해줄 수 있는 변수 추가 
 - 통계적 지식을 활용한 EDA를 통해 다양한 파생 변수 추가 
